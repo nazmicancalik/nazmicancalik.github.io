@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Nazmican Calik
+tagline:          'Personal Website'
+description:      'All these moments will be lost, like tears in rain..'
+url:              http://nazmicancalik.com
+baseurl:          /
+
+author:
+  name:           'Nazmican Calik'
+  url:            https://linkedin.com/in/nazmicancalik
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/nazmicancalik/nazmicancalik.github.io
