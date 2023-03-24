@@ -1,26 +1,52 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+title: Bay Jekyll Theme
+description: >- # this means to ignore newlines until "baseurl:"
+  Bay is a minimal Jekyll Theme.
+baseurl: "/" # the subpath of the site
+url: "https://nazmicancalik.com" # the base hostname & protocol for the site
+og_image: /assets/img/profile-pic.jpg
+google_analytics: "UA-121636368-3"
 
-# Setup
-title:            Nazmican Calik
-tagline:          'Personal Website'
-description:      'All these moments will be lost, like tears in rain..'
-url:              http://nazmicancalik.com
-baseurl:          /
+header:
+  pages:
+    - name: Home
+      slug: /
+    - name: Work
+    - name: Blog
 
-author:
-  name:           'Nazmican Calik'
-  url:            https://linkedin.com/in/nazmicancalik
+footer:
+  show_powered_by: true
+  contact:
+    - name: Email
+      value: nazmican@pm.me
+      link: mailto:nazmican@pm.me
+  follow:
+    - name: LinkedIn
+      link: http://linkedin.com/in/nazmicancalik
+    - name: GitHub
+      link: http://github.com/nazmicancalik
 
-paginate:         5
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
 
-# Custom vars
-version:          2.1.0
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
-github:
-  repo:           https://github.com/nazmicancalik/nazmicancalik.github.io
+# Used for defeating caching
+version: 1
