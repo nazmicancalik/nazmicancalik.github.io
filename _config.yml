@@ -100,3 +100,9 @@ defaults:
       comments: true
       share: true
       related: true
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-HWE24WCDTT"  # Replace with your Measurement ID
+    anonymize_ip: false
