@@ -15,11 +15,11 @@ repository: "nazmicancalik/nazmicancalik.github.io"
 
 # Site Author
 author:
-  name: "Your Name"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "Your bio goes here"
-  location: "Your Location"
-  email: "your.email@example.com"
+  name: "Nazmican Calik"
+  avatar: "/assets/images/bio-photo.jpeg"
+  bio: "ML Engineer passionate about AI, ML, and Data Science. I love to share my knowledge and experiences through writing."
+  location: "Munich, Germany"
+  email: "nazmican@pm.me"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-square"
