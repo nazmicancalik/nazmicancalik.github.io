@@ -1,14 +1,14 @@
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.1"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
-title: "Your Site Title"
+title: "Nazmican Calik"
 title_separator: "-"
-subtitle: "Your Subtitle"
-name: "Your Name"
-description: "Your personal website description"
+subtitle: NULL
+name: "Nazmican Calik"
+description: "My personal blog where I share my knowledge and experiences in AI, ML, and Data Science."
 url: "https://nazmicancalik.github.io"
 baseurl: ""
 repository: "nazmicancalik/nazmicancalik.github.io"
@@ -17,12 +17,12 @@ repository: "nazmicancalik/nazmicancalik.github.io"
 author:
   name: "Nazmican Calik"
   avatar: "/assets/images/bio-photo.jpeg"
-  bio: "ML Engineer passionate about AI, ML, and Data Science. I love to share my knowledge and experiences through writing."
+  bio: "Machine Learning Engineer. Sometimes I write about data related stuff."
   location: "Munich, Germany"
   email: "nazmican@pm.me"
   links:
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/nazmicancalik"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

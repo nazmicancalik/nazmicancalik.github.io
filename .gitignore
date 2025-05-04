@@ -1,0 +1,18 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby
+.bundle/
+vendor/
+
+# General
+.DS_Store
+.idea
+*.swp
+*~
+
+# Optional: If you're using Node/NPM for any tools
+node_modules/
